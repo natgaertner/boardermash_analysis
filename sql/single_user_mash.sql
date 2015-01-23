@@ -1,0 +1,10 @@
+\copy (select * from mashes_obscured where ip_id = 258) to 'single_user_mashes_1.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 294) to 'single_user_mashes_2.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 368) to 'single_user_mashes_3.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 579) to 'single_user_mashes_4.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 409) to 'single_user_mashes_5.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 582) to 'single_user_mashes_6.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 520) to 'single_user_mashes_7.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 231) to 'single_user_mashes_8.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 569) to 'single_user_mashes_9.csv' with CSV HEADER;
+\copy (select * from mashes_obscured where ip_id = 273) to 'single_user_mashes_10.csv' with CSV HEADER;

@@ -1,0 +1,1 @@
+\copy (select count(uuid),name from (select winner_name as name,uuid from mashes union select loser_name as name,uuid  from mashes) as c group by name order by count(uuid)) to 'mash_appearances.csv' with CSV HEADER;
